@@ -1,0 +1,12 @@
+[submodule "services/product-service"]
+	path = services/product-service
+	url = https://github.com/acme-product-demos/acme-demo-product-service.git
+[submodule "services/cart-service"]
+	path = services/cart-service
+	url = https://github.com/acme-product-demos/acme-demo-cart-service.git
+[submodule "services/order-service"]
+	path = services/order-service
+	url = https://github.com/acme-product-demos/acme-demo-order-service.git
+[submodule "services/inventory-service"]
+	path = services/inventory-service
+	url = https://github.com/acme-product-demos/acme-demo-inventory-service.git
