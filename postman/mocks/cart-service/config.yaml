@@ -1,0 +1,14 @@
+version: 1
+id: 101fc18d-3501-4df9-898f-899717d99c91
+name: Cart Service (Virtual)
+slug: cart-service-virtual
+protocol: http
+port: 4500
+scenarios:
+  - name: default
+    path: ./default.js
+    default: true
+generatedFrom:
+  type: spec
+  mode: stateful
+  path: ../../../services/cart-service/postman/specs/cart-service/index.yaml

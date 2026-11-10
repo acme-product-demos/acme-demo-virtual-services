@@ -1,0 +1,9 @@
+cloudResources:
+  mocks:
+    ../postman/mocks/cart-service/config.yaml: 101fc18d-3501-4df9-898f-899717d99c91
+    ../postman/mocks/inventory-service/config.yaml: 637f951d-c36b-416f-9d6b-a11db4d3c48b
+    ../postman/mocks/order-service/config.yaml: ce870bda-e0b0-4314-a4af-6f68a43a79a8
+    ../postman/mocks/product-service/config.yaml: 430a7e1b-327e-4d03-875f-1fad6fbf66da
+workspace:
+  id: 6905ed3a-ecd3-4454-8f04-0b79a97ac38a
+  name: Virtual Services

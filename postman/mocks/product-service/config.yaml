@@ -1,0 +1,14 @@
+version: 1
+id: 430a7e1b-327e-4d03-875f-1fad6fbf66da
+name: Product Service (Virtual)
+slug: product-service-virtual
+protocol: http
+port: 4500
+scenarios:
+  - name: default
+    path: ./default.js
+    default: true
+generatedFrom:
+  type: spec
+  mode: stateful
+  path: ../../../services/product-service/postman/specs/product-service/index.yaml

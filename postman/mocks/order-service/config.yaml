@@ -1,0 +1,14 @@
+version: 1
+id: ce870bda-e0b0-4314-a4af-6f68a43a79a8
+name: Order Service (Virtual)
+slug: order-service-virtual
+protocol: http
+port: 4500
+scenarios:
+  - name: default
+    path: ./default.js
+    default: true
+generatedFrom:
+  type: spec
+  mode: stateful
+  path: ../../../services/order-service/postman/specs/order-service/index.yaml
